@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Hole grid dimensions -->
+    <dimen name="hole_size">110dp</dimen>
+    <dimen name="hole_padding">6dp</dimen>
+    <dimen name="hole_oval_width">80dp</dimen>
+    <dimen name="hole_oval_height">36dp</dimen>
+    <dimen name="mole_size">80dp</dimen>
+</resources>

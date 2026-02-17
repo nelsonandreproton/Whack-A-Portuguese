@@ -1,0 +1,2 @@
+-keep class pt.whackaportugues.app.model.** { *; }
+-keepattributes *Annotation*

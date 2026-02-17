@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PLACEHOLDER for António José Seguro caricature (Presidente Eleito).
+    TODO: Replace with actual recognizable caricature of Seguro.
+    Known features: grey hair, glasses, distinguished look.
+    Will be displayed with label "Seguro - Presidente Eleito".
+    Background: Presidential palace / Belém golden theme.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle - Presidential gold -->
+    <path android:fillColor="#8B6914"
+        android:pathData="M100,100 m-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0" />
+
+    <!-- Gold ring -->
+    <path android:fillColor="none" android:strokeColor="#DAA520" android:strokeWidth="5"
+        android:pathData="M100,100 m-95,0 a95,95 0 1,0 190,0 a95,95 0 1,0 -190,0" />
+
+    <!-- Face -->
+    <path android:fillColor="#F0D0A0"
+        android:pathData="M100,40 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+
+    <!-- Grey hair -->
+    <path android:fillColor="#888888"
+        android:pathData="M58,50 Q60,20 100,20 Q140,20 142,50 Q136,28 100,25 Q64,28 58,50Z" />
+
+    <!-- Eyes (with glasses for distinguished look) -->
+    <path android:fillColor="#3D2B1F"
+        android:pathData="M80,62 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <path android:fillColor="#3D2B1F"
+        android:pathData="M120,62 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Glasses frames -->
+    <path android:fillColor="none" android:strokeColor="#333333" android:strokeWidth="2"
+        android:pathData="M70,62 m-12,0 a12,10 0 1,0 24,0 a12,10 0 1,0 -24,0" />
+    <path android:fillColor="none" android:strokeColor="#333333" android:strokeWidth="2"
+        android:pathData="M130,62 m-12,0 a12,10 0 1,0 24,0 a12,10 0 1,0 -24,0" />
+    <path android:fillColor="none" android:strokeColor="#333333" android:strokeWidth="2"
+        android:pathData="M94,62 L106,62" />
+
+    <!-- Nose -->
+    <path android:fillColor="#DEB88A" android:strokeColor="#C89A70" android:strokeWidth="1"
+        android:pathData="M100,68 L95,80 Q100,84 105,80Z" />
+
+    <!-- Distinguished smile -->
+    <path android:fillColor="none" android:strokeColor="#8B4513" android:strokeWidth="2"
+        android:pathData="M88,90 Q100,97 112,90" />
+
+    <!-- Presidential formal suit -->
+    <path android:fillColor="#1A1A2E"
+        android:pathData="M55,145 Q55,120 100,115 Q145,120 145,145 L145,200 L55,200Z" />
+
+    <!-- Presidential sash (gold) -->
+    <path android:fillColor="#DAA520"
+        android:pathData="M65,120 L75,200 L80,200 L70,120Z" />
+
+    <!-- Shirt / collar -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M90,115 L100,128 L110,115Z" />
+
+    <!-- Name label background -->
+    <path android:fillColor="#CC000000"
+        android:pathData="M0,165 L200,165 L200,200 L0,200Z" />
+
+    <!-- Star symbol (presidential) -->
+    <path android:fillColor="#DAA520"
+        android:pathData="M100,168 L103,177 L112,177 L105,183 L108,192 L100,186 L92,192 L95,183 L88,177 L97,177Z" />
+
+</vector>

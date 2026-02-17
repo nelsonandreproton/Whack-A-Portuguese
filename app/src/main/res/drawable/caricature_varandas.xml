@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PLACEHOLDER for Frederico Varandas caricature.
+    TODO: Replace with actual recognizable caricature of Varandas.
+    Known features: dark hair, médico background, serious expression.
+    Will be displayed with label "Varandas - Presidente do Sporting".
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle - Sporting green -->
+    <path android:fillColor="#006F3C"
+        android:pathData="M100,100 m-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0" />
+
+    <!-- Face -->
+    <path android:fillColor="#F0C8A0"
+        android:pathData="M100,40 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+
+    <!-- Dark hair -->
+    <path android:fillColor="#1A1A1A"
+        android:pathData="M58,50 Q58,18 100,18 Q142,18 142,50 Q135,30 100,26 Q65,30 58,50Z" />
+
+    <!-- Eyes -->
+    <path android:fillColor="#2C1810"
+        android:pathData="M80,62 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <path android:fillColor="#2C1810"
+        android:pathData="M120,62 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Nose -->
+    <path android:fillColor="#DEB08A" android:strokeColor="#C89070" android:strokeWidth="1"
+        android:pathData="M100,68 L95,80 Q100,84 105,80Z" />
+
+    <!-- Mouth (serious expression) -->
+    <path android:fillColor="none" android:strokeColor="#8B4513" android:strokeWidth="2"
+        android:pathData="M88,90 L112,90" />
+
+    <!-- Body (Sporting green jersey) -->
+    <path android:fillColor="#006F3C"
+        android:pathData="M55,145 Q55,120 100,115 Q145,120 145,145 L145,200 L55,200Z" />
+
+    <!-- Sporting gold trim -->
+    <path android:fillColor="#F0B323"
+        android:pathData="M55,145 L55,155 Q100,150 145,155 L145,145Z" />
+
+    <!-- Name label background -->
+    <path android:fillColor="#CC000000"
+        android:pathData="M0,165 L200,165 L200,200 L0,200Z" />
+
+    <!-- Initials FV -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M70,175 L80,175 M75,175 L75,195
+                          M90,175 L90,195 Q100,195 100,185 Q100,175 90,175 Q90,185 100,185" />
+
+</vector>

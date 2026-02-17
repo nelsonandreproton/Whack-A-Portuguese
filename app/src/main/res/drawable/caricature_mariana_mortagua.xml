@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PLACEHOLDER for Mariana Mortágua caricature (Bloco de Esquerda).
+    TODO: Replace with actual recognizable caricature of Mariana Mortágua.
+    Known features: curly/afro hair, glasses, passionate expression.
+    Will be displayed with label "Mariana Mortágua - Bloco de Esquerda".
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle - Bloco dark red -->
+    <path android:fillColor="#7B1212"
+        android:pathData="M100,100 m-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0" />
+
+    <!-- Face -->
+    <path android:fillColor="#C8956C"
+        android:pathData="M100,50 m-38,0 a38,38 0 1,0 76,0 a38,38 0 1,0 -76,0" />
+
+    <!-- Curly/afro hair (very distinctive feature) -->
+    <path android:fillColor="#1A0A00"
+        android:pathData="M55,60 Q52,10 100,10 Q148,10 145,60
+                          Q140,20 130,15 Q115,8 100,8 Q85,8 70,15 Q60,20 55,60Z" />
+    <!-- Extra curly volume on sides -->
+    <path android:fillColor="#1A0A00"
+        android:pathData="M55,60 Q40,50 42,70 Q44,80 55,75Z" />
+    <path android:fillColor="#1A0A00"
+        android:pathData="M145,60 Q160,50 158,70 Q156,80 145,75Z" />
+
+    <!-- Eyes with glasses -->
+    <path android:fillColor="#2C1810"
+        android:pathData="M82,58 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <path android:fillColor="#2C1810"
+        android:pathData="M118,58 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Glasses (distinctive) -->
+    <path android:fillColor="none" android:strokeColor="#222222" android:strokeWidth="2"
+        android:pathData="M70,58 m-12,0 a12,9 0 1,0 24,0 a12,9 0 1,0 -24,0" />
+    <path android:fillColor="none" android:strokeColor="#222222" android:strokeWidth="2"
+        android:pathData="M130,58 m-12,0 a12,9 0 1,0 24,0 a12,9 0 1,0 -24,0" />
+    <path android:fillColor="none" android:strokeColor="#222222" android:strokeWidth="2"
+        android:pathData="M94,58 L106,58" />
+    <!-- Temple arms -->
+    <path android:fillColor="none" android:strokeColor="#222222" android:strokeWidth="2"
+        android:pathData="M58,58 L50,55" />
+    <path android:fillColor="none" android:strokeColor="#222222" android:strokeWidth="2"
+        android:pathData="M142,58 L150,55" />
+
+    <!-- Nose -->
+    <path android:fillColor="#B87C5A" android:strokeColor="#A06848" android:strokeWidth="1"
+        android:pathData="M100,65 L95,76 Q100,80 105,76Z" />
+
+    <!-- Determined expression -->
+    <path android:fillColor="none" android:strokeColor="#5C3010" android:strokeWidth="2"
+        android:pathData="M86,86 Q100,93 114,86" />
+
+    <!-- Body (Bloco colors - dark with red accent) -->
+    <path android:fillColor="#0D0D0D"
+        android:pathData="M55,145 Q55,120 100,115 Q145,120 145,145 L145,200 L55,200Z" />
+
+    <!-- Red scarf/accent -->
+    <path android:fillColor="#B22222"
+        android:pathData="M80,115 Q100,130 120,115 Q115,135 100,140 Q85,135 80,115Z" />
+
+    <!-- Name label background -->
+    <path android:fillColor="#CC000000"
+        android:pathData="M0,165 L200,165 L200,200 L0,200Z" />
+
+    <!-- Bloco symbol (stylized B in red) -->
+    <path android:fillColor="#B22222"
+        android:pathData="M88,170 L88,195 Q100,195 100,182 Q100,170 88,170
+                          M88,182 Q100,182 100,182" />
+
+</vector>

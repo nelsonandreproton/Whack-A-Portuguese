@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PLACEHOLDER for Luís Montenegro caricature.
+    TODO: Replace with actual recognizable caricature of Montenegro.
+    Known features: grey/silver hair, formal look, PM style.
+    Will be displayed with label "Montenegro - Primeiro-Ministro".
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle - PSD Orange -->
+    <path android:fillColor="#FF6600"
+        android:pathData="M100,100 m-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0" />
+
+    <!-- Face -->
+    <path android:fillColor="#F5D5B0"
+        android:pathData="M100,40 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+
+    <!-- Silver/grey hair (distinctive feature) -->
+    <path android:fillColor="#B0B0B0"
+        android:pathData="M58,50 Q58,18 100,18 Q142,18 142,50 Q138,28 100,25 Q62,28 58,50Z" />
+
+    <!-- Side hair -->
+    <path android:fillColor="#B0B0B0"
+        android:pathData="M58,50 L58,70 Q60,65 65,60Z" />
+    <path android:fillColor="#B0B0B0"
+        android:pathData="M142,50 L142,70 Q140,65 135,60Z" />
+
+    <!-- Eyes (authoritative look) -->
+    <path android:fillColor="#3D2B1F"
+        android:pathData="M79,62 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+    <path android:fillColor="#3D2B1F"
+        android:pathData="M121,62 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+
+    <!-- Eyebrows (grey) -->
+    <path android:fillColor="none" android:strokeColor="#909090" android:strokeWidth="3"
+        android:pathData="M70,52 Q80,48 90,52" />
+    <path android:fillColor="none" android:strokeColor="#909090" android:strokeWidth="3"
+        android:pathData="M110,52 Q120,48 130,52" />
+
+    <!-- Nose -->
+    <path android:fillColor="#E5C09A" android:strokeColor="#C8A080" android:strokeWidth="1"
+        android:pathData="M100,68 L95,80 Q100,84 105,80Z" />
+
+    <!-- Slight smile (diplomatic) -->
+    <path android:fillColor="none" android:strokeColor="#8B4513" android:strokeWidth="2"
+        android:pathData="M88,90 Q100,97 112,90" />
+
+    <!-- Suit (formal - dark) -->
+    <path android:fillColor="#1A1A3E"
+        android:pathData="M55,145 Q55,120 100,115 Q145,120 145,145 L145,200 L55,200Z" />
+
+    <!-- Tie (PSD orange) -->
+    <path android:fillColor="#FF6600"
+        android:pathData="M97,115 L100,155 L103,115Z" />
+
+    <!-- Shirt collar (white) -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M90,115 L100,128 L110,115Z" />
+
+    <!-- Name label background -->
+    <path android:fillColor="#CC000000"
+        android:pathData="M0,165 L200,165 L200,200 L0,200Z" />
+
+    <!-- Initials LM -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M68,175 L75,195 L82,175
+                          M92,175 L92,195 M92,175 Q102,175 102,195" />
+
+</vector>

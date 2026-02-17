@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PLACEHOLDER for Villas-Boas caricature.
+    TODO: Replace with actual recognizable caricature of André Villas-Boas.
+    Known features: bald/shaved head, strong jaw, often seen in Porto colors.
+    Will be displayed with label "Villas-Boas - Presidente do Porto".
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle - Porto blue -->
+    <path android:fillColor="#003E7E"
+        android:pathData="M100,100 m-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0" />
+
+    <!-- Face -->
+    <path android:fillColor="#F0C8A0"
+        android:pathData="M100,40 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+
+    <!-- Shaved/bald head (distinctive Villas-Boas look) -->
+    <path android:fillColor="#D4A882"
+        android:pathData="M58,45 Q60,20 100,20 Q140,20 142,45 Q138,30 100,28 Q62,30 58,45Z" />
+
+    <!-- Eyes (intense look) -->
+    <path android:fillColor="#2C1810"
+        android:pathData="M80,60 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+    <path android:fillColor="#2C1810"
+        android:pathData="M120,60 m-7,0 a7,7 0 1,0 14,0 a7,7 0 1,0 -14,0" />
+
+    <!-- Strong jaw / chin (exaggerated caricature feature) -->
+    <path android:fillColor="#F0C8A0"
+        android:pathData="M70,82 Q100,120 130,82 Q130,100 100,108 Q70,100 70,82Z" />
+
+    <!-- Nose -->
+    <path android:fillColor="#DEB08A" android:strokeColor="#C89070" android:strokeWidth="1"
+        android:pathData="M100,66 L94,80 Q100,85 106,80Z" />
+
+    <!-- Mouth -->
+    <path android:fillColor="none" android:strokeColor="#8B4513" android:strokeWidth="2"
+        android:pathData="M88,90 Q100,98 112,90" />
+
+    <!-- Body (Porto blue jersey) -->
+    <path android:fillColor="#003E7E"
+        android:pathData="M55,145 Q55,120 100,115 Q145,120 145,145 L145,200 L55,200Z" />
+
+    <!-- Porto stripes (white) -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M85,115 L85,200 L95,200 L95,115Z" />
+
+    <!-- Name label background -->
+    <path android:fillColor="#CC000000"
+        android:pathData="M0,165 L200,165 L200,200 L0,200Z" />
+
+    <!-- Initials VB -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M72,175 L72,195 Q82,195 82,185 Q82,175 72,175
+                          M90,175 L90,195 Q100,195 100,185 Q100,175 90,175
+                          M90,185 Q100,185 100,185" />
+
+</vector>
