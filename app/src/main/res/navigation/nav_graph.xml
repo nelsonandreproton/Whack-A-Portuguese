@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="pt.whackaportugues.app.ui.menu.MenuFragment"
+        android:label="@string/app_name">
+        <action
+            android:id="@+id/action_menu_to_characterSelect"
+            app:destination="@id/characterSelectFragment" />
+        <action
+            android:id="@+id/action_menu_to_leaderboard"
+            app:destination="@id/leaderboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/characterSelectFragment"
+        android:name="pt.whackaportugues.app.ui.characterselect.CharacterSelectFragment"
+        android:label="@string/choose_character">
+        <action
+            android:id="@+id/action_characterSelect_to_game"
+            app:destination="@id/gameFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="pt.whackaportugues.app.ui.game.GameFragment"
+        android:label="">
+        <argument
+            android:name="characterId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_game_to_result"
+            app:destination="@id/resultFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="pt.whackaportugues.app.ui.result.ResultFragment"
+        android:label="@string/result">
+        <argument
+            android:name="characterId"
+            app:argType="integer" />
+        <argument
+            android:name="score"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_result_to_menu"
+            app:destination="@id/menuFragment"
+            app:popUpTo="@id/menuFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_result_to_leaderboard"
+            app:destination="@id/leaderboardFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/leaderboardFragment"
+        android:name="pt.whackaportugues.app.ui.leaderboard.LeaderboardFragment"
+        android:label="@string/leaderboard">
+        <argument
+            android:name="characterId"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+
+</navigation>

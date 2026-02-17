@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Whack-A-Portuguese</string>
+    <string name="menu_subtitle">Escolhe a tua vítima e acerta!</string>
+    <string name="choose_character">Escolhe a Personagem</string>
+    <string name="result">Resultado</string>
+    <string name="leaderboard">Recordes</string>
+
+    <!-- Buttons -->
+    <string name="btn_play">Jogar</string>
+    <string name="btn_leaderboard">Recordes</string>
+    <string name="btn_save">Guardar Pontuação</string>
+    <string name="btn_play_again">Jogar Novamente</string>
+
+    <!-- Game -->
+    <string name="score_format">%1$d pts</string>
+    <string name="timer_format">%1$02d:%2$02d</string>
+    <string name="score_default">0 pts</string>
+    <string name="timer_default">01:00</string>
+
+    <!-- Result -->
+    <string name="result_label">Pontuação Final</string>
+    <string name="hits_label">acertos em 60 segundos</string>
+    <string name="hint_player_name">O teu nome</string>
+    <string name="error_name_required">Insere o teu nome para guardar</string>
+    <string name="score_saved">✓ Pontuação guardada!</string>
+
+    <!-- Leaderboard -->
+    <string name="tab_all">Todos</string>
+    <string name="no_scores_yet">Ainda não há recordes.\nJoga e sê o primeiro!</string>
+
+    <!-- Accessibility -->
+    <string name="caricature_description">Caricatura da personagem</string>
+    <string name="mole_description">Personagem no buraco</string>
+
+    <!-- AdMob Unit IDs (test — replace for production) -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

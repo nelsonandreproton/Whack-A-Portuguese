@@ -1,0 +1,36 @@
+package pt.whackaportugues.app
+
+import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.setupActionBarWithNavController
+import com.google.android.gms.ads.MobileAds
+import pt.whackaportugues.app.databinding.ActivityMainBinding
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        // Initialize AdMob (non-intrusive - only banners on menus, interstitials between rounds)
+        MobileAds.initialize(this)
+
+        val navHostFragment = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        val navController = navHostFragment.navController
+
+        val appBarConfig = AppBarConfiguration(setOf(R.id.menuFragment))
+        setupActionBarWithNavController(navController, appBarConfig)
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        val navHostFragment = supportFragmentManager
+            .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
+        return navHostFragment.navController.navigateUp() || super.onSupportNavigateUp()
+    }
+}

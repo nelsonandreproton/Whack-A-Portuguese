@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PLACEHOLDER for Rui Costa caricature.
+    TODO: Replace this file with an actual recognizable caricature of Rui Costa.
+    The caricature should clearly identify the person. It will be displayed with
+    the name label "Rui Costa - Presidente do Benfica" during gameplay.
+    Recommended: 300x300dp, circular crop-friendly, PNG or SVG.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle - Benfica red -->
+    <path android:fillColor="#E4000F"
+        android:pathData="M100,100 m-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0" />
+
+    <!-- Face (skin tone) -->
+    <path android:fillColor="#FDBCB4"
+        android:pathData="M100,40 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+
+    <!-- Hair (dark) -->
+    <path android:fillColor="#2C1810"
+        android:pathData="M58,55 Q58,20 100,20 Q142,20 142,55 Q142,40 130,35 Q100,25 70,35 Q58,40 58,55Z" />
+
+    <!-- Eyes -->
+    <path android:fillColor="#2C1810"
+        android:pathData="M80,62 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+    <path android:fillColor="#2C1810"
+        android:pathData="M120,62 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0" />
+
+    <!-- Nose -->
+    <path android:fillColor="#E8A090" android:strokeColor="#D08070" android:strokeWidth="1"
+        android:pathData="M100,68 L95,82 Q100,86 105,82Z" />
+
+    <!-- Mouth / Smile -->
+    <path android:fillColor="none" android:strokeColor="#8B4513" android:strokeWidth="2"
+        android:pathData="M88,92 Q100,100 112,92" />
+
+    <!-- Body (Benfica jersey - red) -->
+    <path android:fillColor="#E4000F"
+        android:pathData="M55,145 Q55,120 100,115 Q145,120 145,145 L145,200 L55,200Z" />
+
+    <!-- Collar/neckline -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M90,115 L100,130 L110,115Z" />
+
+    <!-- Name label background -->
+    <path android:fillColor="#CC000000"
+        android:pathData="M0,165 L200,165 L200,200 L0,200Z" />
+
+    <!-- Initials RC -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M72,175 L72,195 M72,175 Q82,175 82,182 Q82,189 72,189
+                          M90,180 Q90,175 100,175 Q110,175 110,180 Q110,195 100,195 Q90,195 90,190" />
+
+</vector>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    PLACEHOLDER for André Ventura caricature (Chega).
+    TODO: Replace with actual recognizable caricature of André Ventura.
+    Known features: dark hair, intense eyes, passionate speaker expression.
+    Will be displayed with label "André Ventura - Chega".
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle - Chega dark red -->
+    <path android:fillColor="#880000"
+        android:pathData="M100,100 m-100,0 a100,100 0 1,0 200,0 a100,100 0 1,0 -200,0" />
+
+    <!-- Face -->
+    <path android:fillColor="#F0C8A0"
+        android:pathData="M100,40 m-42,0 a42,42 0 1,0 84,0 a42,42 0 1,0 -84,0" />
+
+    <!-- Dark hair -->
+    <path android:fillColor="#1A0A00"
+        android:pathData="M58,52 Q60,18 100,18 Q140,18 142,52 Q136,26 100,23 Q64,26 58,52Z" />
+
+    <!-- Intense / wide eyes (passionate expression) -->
+    <path android:fillColor="#2C1810"
+        android:pathData="M80,60 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+    <path android:fillColor="#2C1810"
+        android:pathData="M120,60 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+
+    <!-- Strong brows (furrowed) -->
+    <path android:fillColor="none" android:strokeColor="#1A0A00" android:strokeWidth="3"
+        android:pathData="M68,50 Q80,46 90,50" />
+    <path android:fillColor="none" android:strokeColor="#1A0A00" android:strokeWidth="3"
+        android:pathData="M110,50 Q120,46 132,50" />
+
+    <!-- Nose -->
+    <path android:fillColor="#DEB08A" android:strokeColor="#C89070" android:strokeWidth="1"
+        android:pathData="M100,67 L94,80 Q100,84 106,80Z" />
+
+    <!-- Open mouth (speaking/shouting - caricature feature) -->
+    <path android:fillColor="#8B0000"
+        android:pathData="M85,88 Q100,102 115,88 Q115,100 100,105 Q85,100 85,88Z" />
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M88,89 L96,89 M104,89 L112,89" />
+
+    <!-- Body (Chega red/black suit) -->
+    <path android:fillColor="#1A0000"
+        android:pathData="M55,145 Q55,120 100,115 Q145,120 145,145 L145,200 L55,200Z" />
+
+    <!-- Red tie (Chega) -->
+    <path android:fillColor="#CC0000"
+        android:pathData="M97,115 L100,155 L103,115Z" />
+
+    <!-- Shirt collar -->
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M90,115 L100,128 L110,115Z" />
+
+    <!-- CHEGA text in label area -->
+    <path android:fillColor="#CC000000"
+        android:pathData="M0,165 L200,165 L200,200 L0,200Z" />
+    <path android:fillColor="#CC0000"
+        android:pathData="M10,172 L190,172 L190,178 L10,178Z" />
+
+</vector>

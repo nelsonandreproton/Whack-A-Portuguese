@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <!-- Hole (dark oval at the bottom of the cell) -->
+    <View
+        android:id="@+id/viewHoleBg"
+        android:layout_width="@dimen/hole_oval_width"
+        android:layout_height="@dimen/hole_oval_height"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/hole_bg" />
+
+    <!-- Mole (character caricature) — animates up from the hole -->
+    <ImageView
+        android:id="@+id/imgMole"
+        android:layout_width="@dimen/mole_size"
+        android:layout_height="@dimen/mole_size"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:scaleType="centerCrop"
+        android:visibility="invisible"
+        android:background="@drawable/mole_circle_bg"
+        android:elevation="4dp"
+        android:contentDescription="@string/mole_description" />
+
+</FrameLayout>

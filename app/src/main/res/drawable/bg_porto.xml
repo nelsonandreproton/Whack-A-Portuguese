@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Background for Villas-Boas / Porto: blue gradient suggesting Estádio do Dragão -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="180"
+                android:startColor="#001F4D"
+                android:centerColor="#003E7E"
+                android:endColor="#005BAA" />
+        </shape>
+    </item>
+    <item android:bottom="0dp" android:top="60%">
+        <shape android:shape="rectangle">
+            <solid android:color="#22C5A028" />
+        </shape>
+    </item>
+</layer-list>

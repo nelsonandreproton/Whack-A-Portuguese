@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Benfica -->
+    <color name="benfica_red">#E4000F</color>
+    <color name="benfica_white">#FFFFFF</color>
+    <color name="benfica_dark">#8B0000</color>
+
+    <!-- Porto -->
+    <color name="porto_blue">#003E7E</color>
+    <color name="porto_white">#FFFFFF</color>
+    <color name="porto_gold">#C5A028</color>
+
+    <!-- Sporting -->
+    <color name="sporting_green">#006F3C</color>
+    <color name="sporting_white">#FFFFFF</color>
+    <color name="sporting_gold">#F0B323</color>
+
+    <!-- PSD / Governo -->
+    <color name="psd_orange">#FF6600</color>
+    <color name="governo_white">#FFFFFF</color>
+    <color name="psd_dark">#CC4400</color>
+
+    <!-- Presidência -->
+    <color name="presidencia_gold">#DAA520</color>
+    <color name="presidencia_white">#FFFFFF</color>
+    <color name="presidencia_dark">#5C4A1E</color>
+
+    <!-- Chega -->
+    <color name="chega_red">#CC0000</color>
+    <color name="chega_black">#000000</color>
+    <color name="chega_dark">#880000</color>
+
+    <!-- Bloco de Esquerda -->
+    <color name="bloco_red">#B22222</color>
+    <color name="bloco_black">#000000</color>
+    <color name="bloco_dark">#7B1212</color>
+
+    <!-- UI -->
+    <color name="primary">#1A1A2E</color>
+    <color name="primary_variant">#16213E</color>
+    <color name="secondary">#E94560</color>
+    <color name="background">#0F3460</color>
+    <color name="surface">#1A1A2E</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="hole_dark">#3E2723</color>
+    <color name="grass_green">#388E3C</color>
+</resources>
